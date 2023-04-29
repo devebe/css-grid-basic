@@ -1,0 +1,32 @@
+body {
+    font-family: 'Nexus Sans Pro', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#container {
+    margin: 0 120px;
+    background-color: #ebebeb;
+}
+
+p {
+    max-width: 75ch;
+    font-size: 20px;
+}
+
+.text {
+    padding: 16px;
+}
+
+.simple-grid {
+    display: grid;
+    padding: 16px;
+    grid-template: 120px 120px / auto auto auto;
+    gap: 16px;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #151515;
+    padding: 16px;
+}
