@@ -30,3 +30,16 @@ p {
     color: #151515;
     padding: 16px;
 }
+
+.harder-grid {
+    display: grid;
+    padding: 16px;
+    grid-template-columns: 24px repeat(12, 1fr) 24px;
+    gap: 16px;
+}
+
+.red {
+    background-color: #ff000036;
+    padding: 8px;
+    height: 160px;
+}
