@@ -34,7 +34,7 @@ p {
 .harder-grid {
     display: grid;
     padding: 16px;
-    grid-template-columns: 24px repeat(12, 1fr) 24px;
+    grid-template-columns: repeat(12, 1fr);
     gap: 16px;
 }
 
